@@ -1,0 +1,971 @@
+{
+  "curso": {
+    "nombre": "Matematicas Interactivas: Resolucion de Problemas con Gamificacion",
+    "modalidad": "Virtual",
+    "duracion": "4 semanas",
+    "nivel": "Educacion media y primeros semestres universitarios",
+    "descripcion": "Curso virtual orientado al fortalecimiento de competencias matematicas mediante estrategias activas, retos gamificados y recursos digitales.",
+    "contexto": "Estudiantes que requieren consolidar pensamiento numerico, algebraico, funcional y estadistico para resolver problemas academicos y cotidianos.",
+    "justificacion": "El curso integra aprendizaje basado en problemas, colaboracion, simuladores y evaluacion formativa para transformar la practica tradicional en una experiencia activa y situada.",
+    "proposito": "Fortalecer la resolucion de problemas matematicos mediante experiencias interactivas, colaborativas y gamificadas, integrando recursos digitales que favorezcan la comprension conceptual, el pensamiento logico y la aplicacion de conocimientos en situaciones contextualizadas.",
+    "perfil": "Estudiantes con competencias digitales basicas, disposicion para el trabajo colaborativo y necesidad de mejorar argumentacion matematica.",
+    "competencias": [
+      "Razonamiento cuantitativo",
+      "Modelacion y representacion matematica",
+      "Argumentacion y comunicacion de procedimientos",
+      "Uso pedagogico de herramientas digitales",
+      "Aprendizaje colaborativo y autorregulacion"
+    ]
+  },
+  "resultadosAprendizaje": [
+    {
+      "id": "RA1",
+      "texto": "Analiza situaciones matematicas contextualizadas mediante representaciones numericas, algebraicas y graficas.",
+      "alineacion": "Unidades 1 y 3; quices diagnosticos y laboratorio grafico."
+    },
+    {
+      "id": "RA2",
+      "texto": "Resuelve problemas aplicando procedimientos matematicos de forma argumentada y verificable.",
+      "alineacion": "Unidades 1, 2 y 4; retos, estudio de caso y mini proyecto."
+    },
+    {
+      "id": "RA3",
+      "texto": "Participa en actividades colaborativas mediadas por tecnologias para construir soluciones matematicas.",
+      "alineacion": "Foros academicos, laboratorio virtual y proyecto estadistico."
+    },
+    {
+      "id": "RA4",
+      "texto": "Evalua sus avances a partir de retroalimentacion, rubricas y evidencias de aprendizaje.",
+      "alineacion": "Tablero de progreso, rubricas por criterios y retroalimentacion automatica."
+    }
+  ],
+  "modulos": [
+    {
+      "id": 1,
+      "titulo": "Pensamiento numerico y resolucion de problemas",
+      "tema": "Operaciones, proporcionalidad y razonamiento logico.",
+      "actividad": "Mision Numeros",
+      "evaluacion": "Quiz diagnostico y ejercicio contextualizado",
+      "recurso": "Video interactivo, infografia y simulador de proporcionalidad",
+      "progreso": 88
+    },
+    {
+      "id": 2,
+      "titulo": "Algebra aplicada",
+      "tema": "Expresiones algebraicas, ecuaciones y modelacion.",
+      "actividad": "Caso Costos y Presupuestos",
+      "evaluacion": "Taller aplicado y foro argumentativo",
+      "recurso": "Guia digital y juego de emparejamiento algebraico",
+      "progreso": 74
+    },
+    {
+      "id": 3,
+      "titulo": "Funciones y representacion grafica",
+      "tema": "Funciones lineales, cuadraticas y analisis grafico.",
+      "actividad": "Laboratorio virtual con graficas",
+      "evaluacion": "Quiz interactivo y entrega de analisis",
+      "recurso": "Simulador tipo GeoGebra y tablero de interpretacion",
+      "progreso": 62
+    },
+    {
+      "id": 4,
+      "titulo": "Estadistica basica y toma de decisiones",
+      "tema": "Tablas, graficos, medidas de tendencia central e interpretacion de datos.",
+      "actividad": "Mini proyecto con datos reales",
+      "evaluacion": "Presentacion de resultados y rubrica final",
+      "recurso": "Hoja de calculo, tablero de datos y foro final",
+      "progreso": 45
+    }
+  ],
+  "actividades": [
+    {
+      "titulo": "Mision Numeros",
+      "tipo": "Aprendizaje basado en problemas",
+      "unidad": 1,
+      "resultado": "RA1, RA2",
+      "descripcion": "Los estudiantes resuelven una situacion de proporcionalidad vinculada con consumo de agua y presupuesto familiar.",
+      "instrucciones": "Analiza los datos, selecciona una estrategia, justifica el procedimiento y publica una evidencia corta.",
+      "recursos": ["Simulador de razones", "Infografia", "Calculadora"],
+      "producto": "Solucion argumentada con procedimiento y verificacion.",
+      "criterios": "Comprension del problema, pertinencia del procedimiento, claridad de la argumentacion.",
+      "retroalimentacion": "Se orienta la revision de errores de proporcionalidad y se proponen problemas de refuerzo.",
+      "puntos": 80
+    },
+    {
+      "titulo": "Caso Costos y Presupuestos",
+      "tipo": "Estudio de caso",
+      "unidad": 2,
+      "resultado": "RA2",
+      "descripcion": "Modelacion algebraica de costos, ventas y punto de equilibrio en un emprendimiento escolar.",
+      "instrucciones": "Define variables, formula ecuaciones, calcula escenarios y argumenta la recomendacion final.",
+      "recursos": ["Guia digital", "Plantilla de presupuesto", "Video de modelacion"],
+      "producto": "Informe breve con ecuaciones, calculos y decision justificada.",
+      "criterios": "Modelacion, exactitud de calculos, interpretacion contextual.",
+      "retroalimentacion": "Se contrastan modelos equivalentes y se senalan supuestos omitidos.",
+      "puntos": 100
+    },
+    {
+      "titulo": "Debate: matematicas para decidir",
+      "tipo": "Foro academico",
+      "unidad": 2,
+      "resultado": "RA3",
+      "descripcion": "Discusion sobre el papel de las herramientas digitales en la comprension de problemas cotidianos.",
+      "instrucciones": "Publica una postura, responde a dos companeros y usa al menos un ejemplo numerico.",
+      "recursos": ["Foro del aula", "Lectura breve", "Rubrica de participacion"],
+      "producto": "Intervenciones argumentadas en el foro.",
+      "criterios": "Pertinencia, argumentacion, interaccion respetuosa y uso de evidencia.",
+      "retroalimentacion": "El docente sintetiza patrones de participacion y recomienda mejoras.",
+      "puntos": 60
+    },
+    {
+      "titulo": "Quiz algebra y funciones",
+      "tipo": "Quiz interactivo",
+      "unidad": 3,
+      "resultado": "RA1, RA4",
+      "descripcion": "Evaluacion automatica de conceptos de ecuaciones y lectura de funciones.",
+      "instrucciones": "Responde cada pregunta y revisa la retroalimentacion inmediata antes de avanzar.",
+      "recursos": ["Banco de preguntas", "Graficas interactivas"],
+      "producto": "Puntaje automatico y plan de mejora.",
+      "criterios": "Exactitud conceptual y uso de retroalimentacion.",
+      "retroalimentacion": "Cada respuesta muestra una explicacion corta y una recomendacion.",
+      "puntos": 75
+    },
+    {
+      "titulo": "Desafio Algebraico",
+      "tipo": "Juego matematico",
+      "unidad": 2,
+      "resultado": "RA2",
+      "descripcion": "Juego de emparejamiento de expresiones equivalentes y resolucion de ecuaciones cortas.",
+      "instrucciones": "Selecciona la respuesta equivalente para sumar puntos y desbloquear una insignia.",
+      "recursos": ["Tarjetas interactivas", "Pistas de equivalencia"],
+      "producto": "Puntaje de juego y mensaje de logro.",
+      "criterios": "Identificacion de equivalencias y velocidad razonable.",
+      "retroalimentacion": "Se explica la propiedad algebraica aplicada en cada reto.",
+      "puntos": 90
+    },
+    {
+      "titulo": "Datos que cuentan una historia",
+      "tipo": "Mini proyecto final",
+      "unidad": 4,
+      "resultado": "RA2, RA3, RA4",
+      "descripcion": "Analisis de un conjunto de datos reales para tomar una decision justificada.",
+      "instrucciones": "Organiza datos, calcula medidas, crea graficos y presenta conclusiones en formato digital.",
+      "recursos": ["Hoja de calculo", "Tablero de datos", "Rubrica final"],
+      "producto": "Presentacion breve con visualizaciones y conclusion argumentada.",
+      "criterios": "Tratamiento de datos, interpretacion, comunicacion y uso de herramientas.",
+      "retroalimentacion": "La rubrica final orienta ajustes sobre visualizacion e interpretacion.",
+      "puntos": 120
+    }
+  ],
+  "quices": [
+    {
+      "id": "quiz-numerico",
+      "titulo": "Quiz 1: Pensamiento numerico",
+      "logro": "Reconoce relaciones numericas y estrategias de proporcionalidad.",
+      "preguntas": [
+        {
+          "enunciado": "Si 3 cuadernos cuestan 18.000 pesos, cuanto cuestan 5 cuadernos al mismo precio unitario?",
+          "opciones": ["24.000", "30.000", "36.000", "42.000"],
+          "correcta": 1,
+          "retroalimentacion": "El precio unitario es 6.000; cinco cuadernos cuestan 30.000.",
+          "puntos": 10
+        },
+        {
+          "enunciado": "Una razon equivalente a 4:6 es:",
+          "opciones": ["2:3", "3:2", "8:10", "1:6"],
+          "correcta": 0,
+          "retroalimentacion": "Al dividir 4 y 6 entre 2 se obtiene 2:3.",
+          "puntos": 10
+        },
+        {
+          "enunciado": "El 25% de 320 es:",
+          "opciones": ["60", "70", "80", "90"],
+          "correcta": 2,
+          "retroalimentacion": "25% equivale a una cuarta parte; 320 dividido entre 4 es 80.",
+          "puntos": 10
+        },
+        {
+          "enunciado": "Que operacion permite verificar una division?",
+          "opciones": ["Suma", "Multiplicacion", "Resta", "Potenciacion"],
+          "correcta": 1,
+          "retroalimentacion": "La multiplicacion del cociente por el divisor verifica el resultado.",
+          "puntos": 10
+        },
+        {
+          "enunciado": "Si una receta para 4 personas usa 2 tazas de arroz, para 10 personas se requieren:",
+          "opciones": ["3", "4", "5", "6"],
+          "correcta": 2,
+          "retroalimentacion": "La proporcion es 0,5 tazas por persona; para 10 personas son 5 tazas.",
+          "puntos": 10
+        }
+      ]
+    },
+    {
+      "id": "quiz-algebra",
+      "titulo": "Quiz 2: Algebra y funciones",
+      "logro": "Modela relaciones algebraicas e interpreta patrones funcionales.",
+      "preguntas": [
+        {
+          "enunciado": "La solucion de x + 7 = 15 es:",
+          "opciones": ["6", "7", "8", "9"],
+          "correcta": 2,
+          "retroalimentacion": "Restar 7 a ambos lados da x = 8.",
+          "puntos": 10
+        },
+        {
+          "enunciado": "La expresion equivalente a 3(a + 2) es:",
+          "opciones": ["3a + 2", "a + 6", "3a + 6", "6a"],
+          "correcta": 2,
+          "retroalimentacion": "La propiedad distributiva produce 3a + 6.",
+          "puntos": 10
+        },
+        {
+          "enunciado": "En y = 2x + 1, cuando x = 4, y vale:",
+          "opciones": ["7", "8", "9", "10"],
+          "correcta": 2,
+          "retroalimentacion": "2 por 4 mas 1 es 9.",
+          "puntos": 10
+        },
+        {
+          "enunciado": "Una funcion lineal se reconoce porque su grafica es:",
+          "opciones": ["Una curva", "Una recta", "Un circulo", "Una parabola siempre"],
+          "correcta": 1,
+          "retroalimentacion": "Las funciones lineales tienen representacion grafica recta.",
+          "puntos": 10
+        },
+        {
+          "enunciado": "Si 2x = 18, entonces x es:",
+          "opciones": ["6", "8", "9", "10"],
+          "correcta": 2,
+          "retroalimentacion": "Dividir ambos lados entre 2 da x = 9.",
+          "puntos": 10
+        }
+      ]
+    }
+  ],
+  "juegos": [
+    {
+      "titulo": "Desafio Algebraico",
+      "instrucciones": "Selecciona la opcion equivalente o la solucion correcta. Cada acierto suma puntos segun la dificultad.",
+      "retos": [
+        {
+          "pregunta": "2(x + 4)",
+          "opciones": ["2x + 4", "2x + 8", "x + 8"],
+          "correcta": 1,
+          "feedback": "Aplicaste correctamente la propiedad distributiva.",
+          "dificultad": "basico",
+          "puntos": 20
+        },
+        {
+          "pregunta": "x - 5 = 11",
+          "opciones": ["x = 6", "x = 16", "x = 11"],
+          "correcta": 1,
+          "feedback": "Sumar 5 a ambos lados da x = 16.",
+          "dificultad": "basico",
+          "puntos": 20
+        },
+        {
+          "pregunta": "4a + 4a",
+          "opciones": ["8a", "16a", "4a²"],
+          "correcta": 0,
+          "feedback": "Se suman terminos semejantes: 4a + 4a = 8a.",
+          "dificultad": "basico",
+          "puntos": 20
+        },
+        {
+          "pregunta": "Simplifica: 5x - 2x + 3x",
+          "opciones": ["6x", "10x", "0x"],
+          "correcta": 0,
+          "feedback": "Se combinan terminos semejantes: 5 - 2 + 3 = 6, por tanto 6x.",
+          "dificultad": "basico",
+          "puntos": 20
+        },
+        {
+          "pregunta": "Si f(x) = 3x - 2, entonces f(5) vale:",
+          "opciones": ["11", "13", "17"],
+          "correcta": 1,
+          "feedback": "f(5) = 3(5) - 2 = 15 - 2 = 13.",
+          "dificultad": "intermedio",
+          "puntos": 25
+        },
+        {
+          "pregunta": "La ecuacion 2x + 6 = 14 tiene solucion:",
+          "opciones": ["x = 3", "x = 4", "x = 10"],
+          "correcta": 1,
+          "feedback": "Restando 6: 2x = 8; dividiendo entre 2: x = 4.",
+          "dificultad": "intermedio",
+          "puntos": 25
+        },
+        {
+          "pregunta": "Factoriza: x² + 5x + 6",
+          "opciones": ["(x+2)(x+3)", "(x+1)(x+6)", "(x-2)(x-3)"],
+          "correcta": 0,
+          "feedback": "Se buscan dos numeros que sumen 5 y multipliquen 6: son 2 y 3.",
+          "dificultad": "avanzado",
+          "puntos": 35
+        }
+      ]
+    }
+  ],
+  "foros": [
+    {
+      "titulo": "Foro de presentacion",
+      "pregunta": "Que expectativa tienes frente al uso de retos y herramientas digitales para aprender matematicas?",
+      "apertura": "2026-06-03",
+      "cierre": "2026-06-07",
+      "criterios": "Presentacion clara, expectativa concreta y respuesta a un companero.",
+      "puntos": 20,
+      "participaciones": [
+        {
+          "autor": "Laura",
+          "mensaje": "Espero mejorar mi confianza al explicar procedimientos con ejemplos."
+        },
+        {
+          "autor": "Andres",
+          "mensaje": "Me interesa usar graficas para entender problemas que antes resolvia solo con formulas."
+        }
+      ]
+    },
+    {
+      "titulo": "Foro de resolucion colaborativa",
+      "pregunta": "Como puede una herramienta digital ayudar a comprender mejor los problemas matematicos de la vida cotidiana?",
+      "apertura": "2026-06-10",
+      "cierre": "2026-06-14",
+      "criterios": "Argumento matematico, ejemplo contextualizado y retroalimentacion entre pares.",
+      "puntos": 35,
+      "participaciones": [
+        {
+          "autor": "Mariana",
+          "mensaje": "Un simulador permite cambiar valores y observar patrones antes de formalizar la respuesta."
+        },
+        {
+          "autor": "Carlos",
+          "mensaje": "Las hojas de calculo facilitan comparar escenarios y justificar decisiones."
+        }
+      ]
+    },
+    {
+      "titulo": "Foro de reflexion final",
+      "pregunta": "Que estrategia del curso transformo tu manera de resolver problemas matematicos?",
+      "apertura": "2026-06-24",
+      "cierre": "2026-06-28",
+      "criterios": "Reflexion personal, evidencia de aprendizaje y propuesta de mejora.",
+      "puntos": 35,
+      "participaciones": [
+        {
+          "autor": "Sofia",
+          "mensaje": "La rubrica me ayudo a revisar mi procedimiento antes de entregar."
+        },
+        {
+          "autor": "Diego",
+          "mensaje": "El juego algebraico me hizo practicar sin sentir que era una repeticion mecanica."
+        }
+      ]
+    }
+  ],
+  "rubricas": [
+    {
+      "criterio": "Comprension conceptual",
+      "excelente": "Interpreta conceptos y relaciones con precision, usando representaciones pertinentes.",
+      "alto": "Reconoce los conceptos centrales y los aplica con pocos ajustes.",
+      "basico": "Identifica parcialmente los conceptos, pero requiere apoyo para relacionarlos.",
+      "bajo": "Presenta dificultades para reconocer conceptos y relaciones matematicas."
+    },
+    {
+      "criterio": "Procedimiento matematico",
+      "excelente": "Desarrolla procedimientos completos, ordenados y verificables.",
+      "alto": "Aplica procedimientos adecuados con errores menores.",
+      "basico": "Usa procedimientos incompletos o poco justificados.",
+      "bajo": "El procedimiento no permite resolver el problema planteado."
+    },
+    {
+      "criterio": "Argumentacion",
+      "excelente": "Justifica decisiones con lenguaje matematico claro y evidencia suficiente.",
+      "alto": "Explica la mayoria de decisiones con coherencia.",
+      "basico": "Ofrece explicaciones generales con poca evidencia.",
+      "bajo": "No justifica o la explicacion no se relaciona con el resultado."
+    },
+    {
+      "criterio": "Uso de herramientas digitales",
+      "excelente": "Integra herramientas digitales para explorar, verificar y comunicar resultados.",
+      "alto": "Usa herramientas digitales de manera pertinente.",
+      "basico": "Usa herramientas con apoyo o sin aprovechar su potencial analitico.",
+      "bajo": "No usa herramientas digitales o su uso dificulta la evidencia."
+    },
+    {
+      "criterio": "Participacion colaborativa",
+      "excelente": "Aporta ideas, dialoga con respeto y mejora soluciones colectivas.",
+      "alto": "Participa de forma pertinente y responde a sus pares.",
+      "basico": "Participa de manera limitada o descriptiva.",
+      "bajo": "No participa o sus intervenciones no aportan al trabajo grupal."
+    }
+  ],
+  "evaluacion": [
+    { "evidencia": "Unidad 1: Quiz diagnostico y reto numerico", "porcentaje": 15 },
+    { "evidencia": "Unidad 2: Estudio de caso algebraico", "porcentaje": 20 },
+    { "evidencia": "Unidad 3: Laboratorio de funciones", "porcentaje": 20 },
+    { "evidencia": "Unidad 4: Mini proyecto estadistico", "porcentaje": 25 },
+    { "evidencia": "Participacion en foros", "porcentaje": 10 },
+    { "evidencia": "Gamificacion y retos complementarios", "porcentaje": 10 }
+  ],
+  "gamificacion": {
+    "puntos": 0,
+    "nivelActual": "Explorador Matematico",
+    "nivelNumero": 1,
+    "niveles": [
+      { "nivel": 1, "nombre": "Explorador Matematico",  "puntosNecesarios": 0   },
+      { "nivel": 2, "nombre": "Resolutor de Retos",     "puntosNecesarios": 100 },
+      { "nivel": 3, "nombre": "Estratega Algebraico",   "puntosNecesarios": 250 },
+      { "nivel": 4, "nombre": "Maestro de Datos",       "puntosNecesarios": 400 },
+      { "nivel": 5, "nombre": "Experto en Funciones",   "puntosNecesarios": 600 }
+    ],
+    "insignias": [
+      {
+        "id": "primera-mision",
+        "nombre": "Primera mision",
+        "descripcion": "Respondiste al menos una pregunta del quiz numerico.",
+        "icono": "★",
+        "desbloqueada": false,
+        "condicion": "quiz_numerico_completo"
+      },
+      {
+        "id": "foro-activo",
+        "nombre": "Foro activo",
+        "descripcion": "Respondiste en un foro del curso.",
+        "icono": "◌",
+        "desbloqueada": false,
+        "condicion": "foro_respondido"
+      },
+      {
+        "id": "dominio-algebra",
+        "nombre": "Dominio algebra",
+        "descripcion": "Obtuviste 60 o mas puntos en el Desafio Algebraico.",
+        "icono": "α",
+        "desbloqueada": false,
+        "condicion": "juego_60pts"
+      },
+      {
+        "id": "quiz-perfecto",
+        "nombre": "Quiz perfecto",
+        "descripcion": "Respondiste correctamente todas las preguntas de un quiz.",
+        "icono": "✓",
+        "desbloqueada": false,
+        "condicion": "quiz_sin_errores"
+      },
+      {
+        "id": "pensamiento-estadistico",
+        "nombre": "Pensamiento estadistico",
+        "descripcion": "Completaste el quiz de algebra al 100%.",
+        "icono": "∑",
+        "desbloqueada": false,
+        "condicion": "quiz_algebra_completo"
+      },
+      {
+        "id": "proyecto-final",
+        "nombre": "Proyecto final",
+        "descripcion": "Alcanzaste 400 puntos totales.",
+        "icono": "♛",
+        "desbloqueada": false,
+        "condicion": "puntos_400"
+      }
+    ],
+    "ranking": [
+      { "nombre": "Laura",       "puntos": 410 },
+      { "nombre": "Andres",      "puntos": 390 },
+      { "nombre": "Tu progreso", "puntos": 0   },
+      { "nombre": "Sofia",       "puntos": 330 }
+    ]
+  },
+  "misiones": [
+    {
+      "id": "mision-dia-1",
+      "titulo": "Arranque numerico",
+      "descripcion": "Completa el quiz de pensamiento numerico y responde en el foro de presentacion.",
+      "tipo": "diaria",
+      "modulo": 1,
+      "recompensa": { "puntos": 50, "insignia": null },
+      "objetivos": [
+        {
+          "id": "obj-quiz-numerico",
+          "descripcion": "Responder las 5 preguntas del Quiz 1",
+          "tipo": "quiz_completo",
+          "referencia": "quiz-numerico",
+          "completado": false
+        },
+        {
+          "id": "obj-foro-presentacion",
+          "descripcion": "Participar en el Foro de presentacion",
+          "tipo": "foro_respondido",
+          "referencia": "Foro de presentacion",
+          "completado": false
+        }
+      ],
+      "completada": false
+    },
+    {
+      "id": "mision-dia-2",
+      "titulo": "Algebraista en accion",
+      "descripcion": "Supera el Desafio Algebraico con al menos 60 puntos y completa el quiz de algebra.",
+      "tipo": "diaria",
+      "modulo": 2,
+      "recompensa": { "puntos": 75, "insignia": "dominio-algebra" },
+      "objetivos": [
+        {
+          "id": "obj-juego-60pts",
+          "descripcion": "Obtener 60 puntos en el Desafio Algebraico",
+          "tipo": "juego_puntos_min",
+          "referencia": "desafio-algebraico",
+          "minimo": 60,
+          "completado": false
+        },
+        {
+          "id": "obj-quiz-algebra",
+          "descripcion": "Completar el Quiz 2 de algebra",
+          "tipo": "quiz_completo",
+          "referencia": "quiz-algebra",
+          "completado": false
+        }
+      ],
+      "completada": false
+    },
+    {
+      "id": "mision-modulo-2",
+      "titulo": "Maestro algebraico",
+      "descripcion": "Demuestra dominio total: responde todos los retos del juego y completa el Quiz 2 sin errores.",
+      "tipo": "modulo",
+      "modulo": 2,
+      "recompensa": { "puntos": 120, "insignia": "quiz-perfecto" },
+      "objetivos": [
+        {
+          "id": "obj-quiz-algebra-perfecto",
+          "descripcion": "Responder todo el Quiz 2 sin errores",
+          "tipo": "quiz_sin_errores",
+          "referencia": "quiz-algebra",
+          "completado": false
+        },
+        {
+          "id": "obj-juego-completo",
+          "descripcion": "Responder todos los retos del Desafio Algebraico",
+          "tipo": "juego_completo",
+          "referencia": "desafio-algebraico",
+          "completado": false
+        }
+      ],
+      "completada": false
+    }
+  ],
+  "progreso": [
+    { "seccion": "Modulos revisados", "valor": 72 },
+    { "seccion": "Quices completados", "valor": 50 },
+    { "seccion": "Foros participados", "valor": 66 },
+    { "seccion": "Proyecto final", "valor": 35 }
+  ],
+  "bancoPreguntas": [
+    {
+      "id": "n01", "quiz": "quiz-numerico",
+      "enunciado": "Si 3 cuadernos cuestan 18.000 pesos, ¿cuanto cuestan 5 cuadernos al mismo precio unitario?",
+      "opciones": ["24.000", "30.000", "36.000", "42.000"],
+      "correcta": 1,
+      "retroalimentacion": "El precio unitario es 6.000; cinco cuadernos cuestan 30.000.",
+      "puntos": 10
+    },
+    {
+      "id": "n02", "quiz": "quiz-numerico",
+      "enunciado": "Una razon equivalente a 4:6 es:",
+      "opciones": ["2:3", "3:2", "8:10", "1:6"],
+      "correcta": 0,
+      "retroalimentacion": "Al dividir 4 y 6 entre 2 se obtiene 2:3.",
+      "puntos": 10
+    },
+    {
+      "id": "n03", "quiz": "quiz-numerico",
+      "enunciado": "El 25% de 320 es:",
+      "opciones": ["60", "70", "80", "90"],
+      "correcta": 2,
+      "retroalimentacion": "25% equivale a una cuarta parte; 320 dividido entre 4 es 80.",
+      "puntos": 10
+    },
+    {
+      "id": "n04", "quiz": "quiz-numerico",
+      "enunciado": "¿Que operacion permite verificar una division?",
+      "opciones": ["Suma", "Multiplicacion", "Resta", "Potenciacion"],
+      "correcta": 1,
+      "retroalimentacion": "La multiplicacion del cociente por el divisor verifica el resultado.",
+      "puntos": 10
+    },
+    {
+      "id": "n05", "quiz": "quiz-numerico",
+      "enunciado": "Si una receta para 4 personas usa 2 tazas de arroz, para 10 personas se requieren:",
+      "opciones": ["3", "4", "5", "6"],
+      "correcta": 2,
+      "retroalimentacion": "La proporcion es 0,5 tazas por persona; para 10 personas son 5 tazas.",
+      "puntos": 10
+    },
+    {
+      "id": "n06", "quiz": "quiz-numerico",
+      "enunciado": "El 15% de 200 es:",
+      "opciones": ["25", "30", "35", "40"],
+      "correcta": 1,
+      "retroalimentacion": "0,15 × 200 = 30.",
+      "puntos": 10
+    },
+    {
+      "id": "n07", "quiz": "quiz-numerico",
+      "enunciado": "Si 5 litros de pintura cuestan 25.000 pesos, ¿cuanto cuestan 8 litros?",
+      "opciones": ["35.000", "38.000", "40.000", "45.000"],
+      "correcta": 2,
+      "retroalimentacion": "El precio por litro es 5.000; 8 litros cuestan 40.000.",
+      "puntos": 10
+    },
+    {
+      "id": "n08", "quiz": "quiz-numerico",
+      "enunciado": "El minimo comun multiplo (MCM) de 4 y 6 es:",
+      "opciones": ["8", "10", "12", "24"],
+      "correcta": 2,
+      "retroalimentacion": "Multiplos de 4: 4, 8, 12... Multiplos de 6: 6, 12... El primero comun es 12.",
+      "puntos": 10
+    },
+    {
+      "id": "n09", "quiz": "quiz-numerico",
+      "enunciado": "3/4 + 1/2 es igual a:",
+      "opciones": ["4/6", "5/4", "1", "4/8"],
+      "correcta": 1,
+      "retroalimentacion": "Con denominador comun 4: 3/4 + 2/4 = 5/4.",
+      "puntos": 10
+    },
+    {
+      "id": "n10", "quiz": "quiz-numerico",
+      "enunciado": "Un auto recorre 120 km en 2 horas. Su velocidad promedio es:",
+      "opciones": ["50 km/h", "55 km/h", "60 km/h", "70 km/h"],
+      "correcta": 2,
+      "retroalimentacion": "Velocidad = distancia / tiempo = 120 / 2 = 60 km/h.",
+      "puntos": 10
+    },
+    {
+      "id": "n11", "quiz": "quiz-numerico",
+      "enunciado": "¿Cuanto es 3/5 de 40?",
+      "opciones": ["20", "22", "24", "25"],
+      "correcta": 2,
+      "retroalimentacion": "(3 × 40) / 5 = 120 / 5 = 24.",
+      "puntos": 10
+    },
+    {
+      "id": "n12", "quiz": "quiz-numerico",
+      "enunciado": "18 es que porcentaje de 90?",
+      "opciones": ["15%", "18%", "20%", "25%"],
+      "correcta": 2,
+      "retroalimentacion": "(18 / 90) × 100 = 20%.",
+      "puntos": 10
+    },
+    {
+      "id": "n13", "quiz": "quiz-numerico",
+      "enunciado": "Un producto cuesta 80.000 pesos con descuento del 15%. ¿Cuanto se paga?",
+      "opciones": ["64.000", "66.000", "68.000", "70.000"],
+      "correcta": 2,
+      "retroalimentacion": "Descuento: 15% de 80.000 = 12.000. Precio final: 80.000 - 12.000 = 68.000.",
+      "puntos": 10
+    },
+    {
+      "id": "n14", "quiz": "quiz-numerico",
+      "enunciado": "El maximo comun divisor (MCD) de 12 y 18 es:",
+      "opciones": ["3", "4", "6", "9"],
+      "correcta": 2,
+      "retroalimentacion": "Divisores de 12: 1,2,3,4,6,12. Divisores de 18: 1,2,3,6,9,18. El mayor comun es 6.",
+      "puntos": 10
+    },
+    {
+      "id": "n15", "quiz": "quiz-numerico",
+      "enunciado": "¿Cuanto es 2³ × 3²?",
+      "opciones": ["48", "60", "72", "96"],
+      "correcta": 2,
+      "retroalimentacion": "2³ = 8 y 3² = 9; 8 × 9 = 72.",
+      "puntos": 10
+    },
+    {
+      "id": "n16", "quiz": "quiz-numerico",
+      "enunciado": "0,25 × 40 es igual a:",
+      "opciones": ["8", "10", "12", "15"],
+      "correcta": 1,
+      "retroalimentacion": "0,25 equivale a 1/4; la cuarta parte de 40 es 10.",
+      "puntos": 10
+    },
+    {
+      "id": "n17", "quiz": "quiz-numerico",
+      "enunciado": "Si n/5 = 8, entonces n vale:",
+      "opciones": ["13", "35", "40", "45"],
+      "correcta": 2,
+      "retroalimentacion": "Multiplicando ambos lados por 5: n = 8 × 5 = 40.",
+      "puntos": 10
+    },
+    {
+      "id": "n18", "quiz": "quiz-numerico",
+      "enunciado": "2/3 de 90 es:",
+      "opciones": ["45", "55", "60", "65"],
+      "correcta": 2,
+      "retroalimentacion": "(2 × 90) / 3 = 180 / 3 = 60.",
+      "puntos": 10
+    },
+    {
+      "id": "n19", "quiz": "quiz-numerico",
+      "enunciado": "El 40% de 250 es:",
+      "opciones": ["80", "90", "100", "110"],
+      "correcta": 2,
+      "retroalimentacion": "0,4 × 250 = 100.",
+      "puntos": 10
+    },
+    {
+      "id": "n20", "quiz": "quiz-numerico",
+      "enunciado": "La raiz cuadrada de 64 es:",
+      "opciones": ["6", "7", "8", "9"],
+      "correcta": 2,
+      "retroalimentacion": "8 × 8 = 64, por tanto √64 = 8.",
+      "puntos": 10
+    },
+    {
+      "id": "n21", "quiz": "quiz-numerico",
+      "enunciado": "Si la relacion entre ninos y ninas es 3:2 y hay 30 ninos, ¿cuantas ninas hay?",
+      "opciones": ["15", "18", "20", "25"],
+      "correcta": 2,
+      "retroalimentacion": "Por cada 3 ninos hay 2 ninas. 30 / 3 × 2 = 20 ninas.",
+      "puntos": 10
+    },
+    {
+      "id": "n22", "quiz": "quiz-numerico",
+      "enunciado": "5² - 4² es igual a:",
+      "opciones": ["1", "7", "9", "11"],
+      "correcta": 2,
+      "retroalimentacion": "25 - 16 = 9.",
+      "puntos": 10
+    },
+    {
+      "id": "n23", "quiz": "quiz-numerico",
+      "enunciado": "Una temperatura baja de 20°C a -5°C. La diferencia es:",
+      "opciones": ["15°C", "20°C", "25°C", "30°C"],
+      "correcta": 2,
+      "retroalimentacion": "20 - (-5) = 20 + 5 = 25°C de diferencia.",
+      "puntos": 10
+    },
+    {
+      "id": "n24", "quiz": "quiz-numerico",
+      "enunciado": "¿Cuantos multiplos de 3 hay entre 1 y 30?",
+      "opciones": ["8", "9", "10", "11"],
+      "correcta": 2,
+      "retroalimentacion": "3, 6, 9, 12, 15, 18, 21, 24, 27, 30 — son 10 multiplos.",
+      "puntos": 10
+    },
+    {
+      "id": "n25", "quiz": "quiz-numerico",
+      "enunciado": "Si un grifo llena un tanque en 6 horas y otro en 3 horas, juntos lo llenan en:",
+      "opciones": ["1 hora", "2 horas", "4 horas", "9 horas"],
+      "correcta": 1,
+      "retroalimentacion": "Tasa conjunta: 1/6 + 1/3 = 1/2 del tanque por hora. Tiempo: 2 horas.",
+      "puntos": 10
+    },
+    {
+      "id": "a01", "quiz": "quiz-algebra",
+      "enunciado": "La solucion de x + 7 = 15 es:",
+      "opciones": ["6", "7", "8", "9"],
+      "correcta": 2,
+      "retroalimentacion": "Restar 7 a ambos lados da x = 8.",
+      "puntos": 10
+    },
+    {
+      "id": "a02", "quiz": "quiz-algebra",
+      "enunciado": "La expresion equivalente a 3(a + 2) es:",
+      "opciones": ["3a + 2", "a + 6", "3a + 6", "6a"],
+      "correcta": 2,
+      "retroalimentacion": "La propiedad distributiva produce 3a + 6.",
+      "puntos": 10
+    },
+    {
+      "id": "a03", "quiz": "quiz-algebra",
+      "enunciado": "En y = 2x + 1, cuando x = 4, y vale:",
+      "opciones": ["7", "8", "9", "10"],
+      "correcta": 2,
+      "retroalimentacion": "2 por 4 mas 1 es 9.",
+      "puntos": 10
+    },
+    {
+      "id": "a04", "quiz": "quiz-algebra",
+      "enunciado": "Una funcion lineal se reconoce porque su grafica es:",
+      "opciones": ["Una curva", "Una recta", "Un circulo", "Una parabola"],
+      "correcta": 1,
+      "retroalimentacion": "Las funciones lineales tienen representacion grafica recta.",
+      "puntos": 10
+    },
+    {
+      "id": "a05", "quiz": "quiz-algebra",
+      "enunciado": "Si 2x = 18, entonces x es:",
+      "opciones": ["6", "8", "9", "10"],
+      "correcta": 2,
+      "retroalimentacion": "Dividir ambos lados entre 2 da x = 9.",
+      "puntos": 10
+    },
+    {
+      "id": "a06", "quiz": "quiz-algebra",
+      "enunciado": "La solucion de 2x - 3 = 7 es:",
+      "opciones": ["3", "4", "5", "6"],
+      "correcta": 2,
+      "retroalimentacion": "Sumando 3: 2x = 10; dividiendo entre 2: x = 5.",
+      "puntos": 10
+    },
+    {
+      "id": "a07", "quiz": "quiz-algebra",
+      "enunciado": "Si f(x) = x² - 1, entonces f(3) vale:",
+      "opciones": ["6", "7", "8", "9"],
+      "correcta": 2,
+      "retroalimentacion": "f(3) = 3² - 1 = 9 - 1 = 8.",
+      "puntos": 10
+    },
+    {
+      "id": "a08", "quiz": "quiz-algebra",
+      "enunciado": "En y = 3x - 2, la pendiente es:",
+      "opciones": ["-2", "1", "3", "6"],
+      "correcta": 2,
+      "retroalimentacion": "En la forma y = mx + b, m es la pendiente. Aqui m = 3.",
+      "puntos": 10
+    },
+    {
+      "id": "a09", "quiz": "quiz-algebra",
+      "enunciado": "Simplifica: 4x + 2x - x",
+      "opciones": ["4x", "5x", "6x", "7x"],
+      "correcta": 1,
+      "retroalimentacion": "4 + 2 - 1 = 5; el resultado es 5x.",
+      "puntos": 10
+    },
+    {
+      "id": "a10", "quiz": "quiz-algebra",
+      "enunciado": "5(2x + 1) es igual a:",
+      "opciones": ["7x + 1", "10x + 1", "10x + 5", "5x + 5"],
+      "correcta": 2,
+      "retroalimentacion": "5 × 2x + 5 × 1 = 10x + 5.",
+      "puntos": 10
+    },
+    {
+      "id": "a11", "quiz": "quiz-algebra",
+      "enunciado": "Si x/3 = 9, entonces x vale:",
+      "opciones": ["3", "12", "27", "36"],
+      "correcta": 2,
+      "retroalimentacion": "Multiplicando ambos lados por 3: x = 27.",
+      "puntos": 10
+    },
+    {
+      "id": "a12", "quiz": "quiz-algebra",
+      "enunciado": "El intercepto en y de la funcion y = 2x + 5 es:",
+      "opciones": ["2", "5", "7", "10"],
+      "correcta": 1,
+      "retroalimentacion": "Cuando x = 0, y = 5. El intercepto en y es 5.",
+      "puntos": 10
+    },
+    {
+      "id": "a13", "quiz": "quiz-algebra",
+      "enunciado": "La solucion de 3x + 2 = 14 es:",
+      "opciones": ["2", "3", "4", "5"],
+      "correcta": 2,
+      "retroalimentacion": "Restando 2: 3x = 12; dividiendo entre 3: x = 4.",
+      "puntos": 10
+    },
+    {
+      "id": "a14", "quiz": "quiz-algebra",
+      "enunciado": "¿Cual es equivalente a 2(x - 3)?",
+      "opciones": ["2x - 3", "2x + 6", "2x - 6", "x - 6"],
+      "correcta": 2,
+      "retroalimentacion": "2 × x - 2 × 3 = 2x - 6.",
+      "puntos": 10
+    },
+    {
+      "id": "a15", "quiz": "quiz-algebra",
+      "enunciado": "En y = -x + 4, cuando x = 6, y vale:",
+      "opciones": ["-2", "0", "2", "10"],
+      "correcta": 0,
+      "retroalimentacion": "y = -6 + 4 = -2.",
+      "puntos": 10
+    },
+    {
+      "id": "a16", "quiz": "quiz-algebra",
+      "enunciado": "La solucion de 4x - 7 = 9 es:",
+      "opciones": ["2", "3", "4", "5"],
+      "correcta": 2,
+      "retroalimentacion": "Sumando 7: 4x = 16; dividiendo entre 4: x = 4.",
+      "puntos": 10
+    },
+    {
+      "id": "a17", "quiz": "quiz-algebra",
+      "enunciado": "Simplifica 6a - 2a + 3a:",
+      "opciones": ["5a", "6a", "7a", "8a"],
+      "correcta": 2,
+      "retroalimentacion": "6 - 2 + 3 = 7; el resultado es 7a.",
+      "puntos": 10
+    },
+    {
+      "id": "a18", "quiz": "quiz-algebra",
+      "enunciado": "La pendiente de una recta horizontal es:",
+      "opciones": ["-1", "0", "1", "Indefinida"],
+      "correcta": 1,
+      "retroalimentacion": "Una recta horizontal no sube ni baja; su pendiente es 0.",
+      "puntos": 10
+    },
+    {
+      "id": "a19", "quiz": "quiz-algebra",
+      "enunciado": "La solucion de 3(x + 4) = 24 es:",
+      "opciones": ["2", "3", "4", "6"],
+      "correcta": 2,
+      "retroalimentacion": "Dividiendo entre 3: x + 4 = 8; restando 4: x = 4.",
+      "puntos": 10
+    },
+    {
+      "id": "a20", "quiz": "quiz-algebra",
+      "enunciado": "Factoriza 2x + 6:",
+      "opciones": ["2(x + 3)", "2x(1 + 3)", "x + 3", "2(x + 6)"],
+      "correcta": 0,
+      "retroalimentacion": "El factor comun es 2: 2x + 6 = 2(x + 3).",
+      "puntos": 10
+    },
+    {
+      "id": "a21", "quiz": "quiz-algebra",
+      "enunciado": "Si f(x) = 2x + 3, entonces f(0) vale:",
+      "opciones": ["0", "2", "3", "5"],
+      "correcta": 2,
+      "retroalimentacion": "f(0) = 2(0) + 3 = 3.",
+      "puntos": 10
+    },
+    {
+      "id": "a22", "quiz": "quiz-algebra",
+      "enunciado": "La ecuacion x = 3 representa:",
+      "opciones": ["Una recta horizontal", "Una recta vertical", "Una parabola", "Un punto"],
+      "correcta": 1,
+      "retroalimentacion": "x = 3 es una recta vertical que pasa por x = 3.",
+      "puntos": 10
+    },
+    {
+      "id": "a23", "quiz": "quiz-algebra",
+      "enunciado": "Si 3x - 5 = x + 7, entonces x vale:",
+      "opciones": ["4", "5", "6", "7"],
+      "correcta": 2,
+      "retroalimentacion": "3x - x = 7 + 5; 2x = 12; x = 6.",
+      "puntos": 10
+    },
+    {
+      "id": "a24", "quiz": "quiz-algebra",
+      "enunciado": "¿Cual es el valor de y cuando x = 3 en y = x² - x + 1?",
+      "opciones": ["5", "6", "7", "8"],
+      "correcta": 2,
+      "retroalimentacion": "y = 3² - 3 + 1 = 9 - 3 + 1 = 7.",
+      "puntos": 10
+    },
+    {
+      "id": "a25", "quiz": "quiz-algebra",
+      "enunciado": "Dos rectas paralelas tienen pendientes:",
+      "opciones": ["Opuestas", "Iguales", "Inversas", "Complementarias"],
+      "correcta": 1,
+      "retroalimentacion": "Dos rectas paralelas nunca se cruzan y tienen la misma pendiente.",
+      "puntos": 10
+    }
+  ],
+  "retroalimentaciones": [
+    "Vas muy bien en pensamiento numerico. Refuerza el analisis de graficas antes de avanzar al siguiente modulo.",
+    "Tu argumentacion algebraica mejora cuando explicas el significado de cada variable.",
+    "Revisa la rubrica antes de publicar en el foro final para fortalecer evidencia y claridad.",
+    "El proyecto estadistico requiere interpretar datos, no solo calcular medidas."
+  ]
+}

@@ -1,0 +1,6 @@
+node_modules/
+.claude/
+server.err.log
+server.out.log
+.DS_Store
+__MACOSX/
